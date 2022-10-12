@@ -1,0 +1,149 @@
+baseURL: https://zerodawn.tech
+
+languageCode: en-us
+title: "Zero-Dawn"
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+
+# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
+#DefaultContentLanguage: en
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+# Enable Google Analytics
+googleAnalytics: G-9D060HZXN3
+
+# Enable global emoji support
+enableEmoji: true
+
+# GDPR Privacy Settings
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: true
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: true
+  vimeo:
+    disable: true
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
+# Site parameters
+params:
+  # Background image of the landing page
+  background: /images/site/bg_castle.png
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  # It will default to the theme logos if not provided.
+  logo:
+    main: /images/site/logo.png
+    inverted: /images/site/logo.png
+    favicon: /images/site/favicon_new.png
+
+  # GitHub repo of your site
+  gitRepo: https://github.com/the-whiz84/zero-dawn.tech
+  # Default branch of your Git repo
+  gitBranch: source
+
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 6
+
+  # Enable DarkMode
+  darkMode:
+    enable: true
+    provider: darkreader
+    default: system
+
+  # Configure various features of this theme
+  features:
+    # Enable and configure portfolio
+    portfolio:
+      enable: enable
+    # Enable and configure blog posts
+    blog:
+      enable: true
+      # Share post on different social media
+      shareButtons:
+        facebook: false
+        twitter: true
+        linkedin: true
+        reddit: false
+        whatsapp: false
+        email: true
+        # tumblr: true
+        # pocket: truefalse
+        # diaspora: true
+        # mastodon: true
+
+    # Enable & configure "Notes" features
+    notes:
+      enable: false
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Show tags under the post title
+  enableTags: false
+
+  # Provide footer configuration.
+  footer:
+    enable: true
+    # You can provide your custom footer template using this option.
+    # Put your template in "layouts/partials" folder of your repo.
+    template: footer.html
+    # Show/hide navigation in the footer. Default is "true".
+    navigation:
+      enable: true
+    # Show/hide "Contact Me" section in the footer. Default is "true".
+    contactMe:
+      enable: true
+    # Show/hide credentials section in the footer. Default is "true".
+    credentials:
+      enable: true
+
+    # Show/hide newsletter section in the footer. Default is "true".
+    # Currently, it supports "mailchimp".
+    newsletter:
+      enable: true
+
+    # Show/hide disclaimer notice in the footer. Default is "false".
+    disclaimer:
+      enable: false

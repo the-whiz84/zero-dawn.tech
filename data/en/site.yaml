@@ -1,0 +1,23 @@
+# Copyright Notice
+copyright: Copyright © 2022 Radu Chiriac
+
+# Legal
+privacy: "/files/privacy-policy.txt"
+terms: "/files/terms-and-conditions.txt"
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Welcome to Radu Chiriac's portfolio website.
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+- name: Login
+  url: https://login.zero-dawn.eu
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Zero-Dawn
+  type: website
+  description: Welcome to Radu Chiriac's portfolio website.
+  image: images/author/Radu.png
+  url: https://zero-dawn.eu
