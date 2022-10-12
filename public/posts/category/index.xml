@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories and subcategories on Zero-Dawn</title>
+    <link>https://zero-dawn.eu/posts/category/</link>
+    <description>Recent content in Categories and subcategories on Zero-Dawn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zero-dawn.eu/posts/category/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Rich Content</title>
+      <link>https://zero-dawn.eu/posts/category/sub-category/rich-content/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zero-dawn.eu/posts/category/sub-category/rich-content/</guid>
+      <description>This sample post tests the followings:
+ Category, sub-category nesting in the sidebar. Hero image and other images are in images folder inside this post directory. Different media rendering like image, tweet, YouTube video, Vimeo video etc.  Image Sample  Tweet Sample .twitter-tweet { font: 14px/1.45 -apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&#34;Helvetica Neue&#34;,sans-serif; border-left: 4px solid #2b7bb9; padding-left: 1.5em; color: #555; } .twitter-tweet a { color: #2b7bb9; text-decoration: none; } blockquote.twitter-tweet a:hover, blockquote.twitter-tweet a:focus { text-decoration: underline; }  2020 served up some brilliant games.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

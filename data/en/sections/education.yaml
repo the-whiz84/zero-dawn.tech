@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education-alt.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Bachelor Degree in International Relations and European Studies
+  icon: fa-graduation-cap
+  timeframe: 2003-2007
+  institution:
+    name: University of Spiru Haret Bucharest
+    url: "https://spiruharet.ro"
+  grade: #(optional)
+    scale: Numeric
+    achieved: 8.60
+    outOf: 10
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    courses:
+    - name: European Studies
+      achieved: 9
+      outOf: 10
+    - name: History of the European Union
+      achieved: 10
+      outOf: 10
+    - name: Communication and Negotiations Skills
+      achieved: 8
+      outOf: 10
+    - name: European Law
+      achieved: 9
+      outOf: 10
+  extracurricularActivities: #(optional)
+  - Obtained my Cambridge Advanced English (CAE) diploma during college. Currently this is known as C1 Advanced.
+- name: Baccalaureate Diploma
+  icon: fa-university
+  timeframe: 1999-2003
+  institution:
+    name: Gheorghe Cartianu Technical College, Piatra-Neamt
+    url: "http://www.colegiulcartianu.ro"
+  grade: #(optional)
+    scale: Numeric
+    achieved: 8.16
+    outOf: 10
+  extracurricularActivities: #(optional)
+  - Participated in various school olympics for English, Physics and Mathematics.
+- name: Secondary School Certificate
+  icon: fa-school
+  timeframe: 1995-1999
+  institution:
+    name: Public School Nr 2, Piatra-Neamt
+  extracurricularActivities: #(optional)
+  - Reached the Regional Stage in the Mathematics school olympics;
+  - Took chess and rifle shooting classes at the local Children's Club.

@@ -1,0 +1,80 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Technical Engineer - HPC Services
+# your company information
+company:
+  name: ATOS IT
+  url: "https://www.atos.net"
+
+# your resume. this file path should be relative to your "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: "I have been working in Tech Support for 10 years. I am a tech enthusiast, passionate gamer and Linux newbie. I've been working with Linux for 2 years."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "radu.chiriac@zero-dawn.eu"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/the-whiz84"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/radu-chiriac"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://www.twitter.com/The_Whiz84"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: CompTIA Linux+
+  url: "https://www.credly.com/badges/f4556501-eb66-4841-b7e2-f50ccb51b112/public_url"
+  badge: "https://images.credly.com/size/680x680/images/6edb32c5-37d8-4fd4-98cd-2811932f0185/CompTIA_Linux_2Bce.png"
+
+- type: certification
+  name: Okta Certified Consultant
+  url: "https://www.credly.com/badges/89c97534-9cc4-4d5f-8208-7a1a03a43675/public_url"
+  badge: "https://images.credly.com/size/680x680/images/d9e79704-4e57-4a53-837a-313ac12c00af/Badge-Certified-Consultant_600b.png"
+
+- type: certification
+  name: Microsoft Certified - Azure Administrator Associate
+  url: "https://www.credly.com/badges/ea8da235-8c77-4807-96d0-63b5935f5e75/public_url"
+  badge: "https://images.credly.com/size/680x680/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png"
+
+- type: soft-skill-indicator
+  name: Communication
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Problem Solving
+  percentage: 95
+  color: sky
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
