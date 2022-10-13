@@ -6,7 +6,7 @@ greeting: "Hey there, my name is"
 image: "images/author/Radu.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "radu.chiriac@zero-dawn.eu"
+  email: "radu@zerodawn.tech"
 
 # some summary about what you do
 summary:

@@ -6,7 +6,7 @@ privacy: "/files/privacy-policy.txt"
 terms: "/files/terms-and-conditions.txt"
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Welcome to Radu Chiriac's portfolio website.
+description: Welcome to Radu's portfolio website.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -18,6 +18,6 @@ customMenus:
 openGraph:
   title: Zero-Dawn
   type: website
-  description: Welcome to Radu Chiriac's portfolio website.
+  description: Welcome to Radu's portfolio website.
   image: images/author/Radu.png
-  url: https://zero-dawn.eu
+  url: https://zerodawn.tech
