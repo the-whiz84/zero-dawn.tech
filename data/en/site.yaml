@@ -12,7 +12,7 @@ description: Welcome to Radu's portfolio website.
 # they will be separated by a divider from the main menus.
 customMenus:
 - name: Login
-  url: https://login.zero-dawn.eu
+  url: https://login.zerodawn.tech
 
 # Specify OpenGraph Headers
 openGraph:
