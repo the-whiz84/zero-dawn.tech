@@ -35,7 +35,7 @@ outputs:
   - JSON
 
 # Enable Google Analytics
-googleAnalytics: G-9D060HZXN3
+#googleAnalytics: 
 
 # Enable global emoji support
 enableEmoji: true
@@ -75,7 +75,7 @@ params:
   logo:
     main: /images/site/logo.png
     inverted: /images/site/logo.png
-    favicon: /images/site/favicon_new.png
+    favicon: /images/site/favicon.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/the-whiz84/zero-dawn.tech
